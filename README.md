@@ -38,21 +38,25 @@ This loop may use tools (e.g. browser, retrieval) to reduce uncertainty and impr
 
 After sufficient confidence is reached, the system commits to a single decision:
 
-- Prepare application  
-- Queue for later  
-- Skip  
-- Escalate to human  
-
-Learning happens from outcomes:
-- ranking is updated  
-- thresholds are adjusted  
-- retry policies evolve  
+- **Prepare application**  
+- **Queue for later**  
+- **Skip**  
+- **Escalate to human**  
 
 ---
 
-## 🧩 Diagram
+<img src="assets/architecture.svg" width="800"/>
 
-![System Diagram](assets/architecture.svg)
+---
+## 🔄 Learning & Adaptation
+
+The system continuously updates its behavior based on outcomes.
+
+- Ranking is updated based on observed success signals  
+- Decision thresholds are adjusted over time  
+- Retry and escalation policies evolve  
+
+This forms a feedback loop that improves decision quality, not just execution throughput.
 
 ---
 
