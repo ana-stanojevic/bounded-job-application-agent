@@ -26,11 +26,18 @@ Intake → Ranking → Bounded Decision Runtime → Execution → Human Submit
 
 ---
 
-## 🔁 Core Loop
+## 🔁 Decision Process
 
-The system continuously decides:
+The system separates **information gathering** from **decision making**.
 
-- Research  
+First, it runs an internal loop:
+
+- plan → select tool → execute → evaluate  
+
+This loop may use tools (e.g. browser, retrieval) to reduce uncertainty and improve the estimate of expected value.
+
+After sufficient confidence is reached, the system commits to a single decision:
+
 - Prepare application  
 - Queue for later  
 - Skip  
