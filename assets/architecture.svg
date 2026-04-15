@@ -20,7 +20,7 @@
 
   <!-- Intake -->
   <rect x="150" y="160" width="600" height="100" class="box highlight"/>
-  <text x="450" y="200" text-anchor="middle" class="title">① intake & ranking</text>
+  <text x="450" y="200" text-anchor="middle" class="title">① intake &amp; ranking</text>
   <text x="450" y="230" text-anchor="middle" class="label">discover · normalize · filter · rank</text>
 
   <!-- Queue -->
@@ -30,12 +30,12 @@
 
   <!-- Decision runtime -->
   <rect x="150" y="420" width="600" height="100" class="box orange"/>
-  <text x="450" y="460" text-anchor="middle" class="title">② decision runtime</text>
+  <text x="450" y="460" text-anchor="middle" class="title">③ decision runtime</text>
   <text x="450" y="485" text-anchor="middle" class="label">state · policy gates · expected value · budget</text>
 
   <!-- Loop -->
   <rect x="100" y="560" width="700" height="220" class="box orange"/>
-  <text x="450" y="600" text-anchor="middle" class="title">③ expected value decision loop</text>
+  <text x="450" y="600" text-anchor="middle" class="title">④ expected value decision loop</text>
   <text x="450" y="640" text-anchor="middle" class="label">plan → select tool → execute → evaluate</text>
 
   <text x="450" y="710" text-anchor="middle" class="title">DECISION</text>
@@ -43,12 +43,12 @@
 
   <!-- Execute -->
   <rect x="150" y="820" width="600" height="90" class="box"/>
-  <text x="450" y="860" text-anchor="middle" class="title">④ execute decision</text>
+  <text x="450" y="860" text-anchor="middle" class="title">⑤ execute decision</text>
   <text x="450" y="885" text-anchor="middle" class="label">prepare + human submit · requeue · skip · escalate</text>
 
   <!-- Adaptation -->
   <rect x="150" y="940" width="600" height="120" class="box blue"/>
-  <text x="450" y="980" text-anchor="middle" class="title">⑤ policy adaptation</text>
+  <text x="450" y="980" text-anchor="middle" class="title">⑥ policy adaptation</text>
   <text x="450" y="1010" text-anchor="middle" class="label">outcomes → ranking / thresholds / retries</text>
   <text x="450" y="1040" text-anchor="middle" class="label">feedback loop → policy tuning</text>
 
