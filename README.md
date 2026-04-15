@@ -24,6 +24,10 @@ Instead of blindly applying to jobs, the agent:
 
 Intake → Ranking → Bounded Decision Runtime → Execution → Human Submit
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ana-stanojevic/bounded-job-application-agent/main/assets/architecture.png" width="600"/>
+</p>
+
 ---
 
 ## 🔁 Decision Process
@@ -43,11 +47,6 @@ After sufficient confidence is reached, the system commits to a single decision:
 - **Skip**  
 - **Escalate to human**  
 
----
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/ana-stanojevic/bounded-job-application-agent/main/assets/architecture.png" width="600"/>
-</p>
 
 ---
 ## 🔄 Learning & Adaptation
