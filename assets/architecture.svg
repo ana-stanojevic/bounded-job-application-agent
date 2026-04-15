@@ -3,7 +3,7 @@
     text { font-family: Arial, sans-serif; fill: #e5e7eb; }
     .title { font-size: 20px; font-weight: bold; }
     .label { font-size: 14px; fill: #9ca3af; }
-    .box { fill: none; stroke: #374151; stroke-width: 2; rx: 12; }
+    .box { fill: #1f2937; stroke: #374151; stroke-width: 2; rx: 12; }
     .highlight { stroke: #8b5cf6; }
     .green { stroke: #10b981; }
     .orange { stroke: #f97316; }
