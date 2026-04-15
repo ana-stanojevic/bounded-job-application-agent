@@ -95,39 +95,11 @@ Actions are not free — each one is evaluated before execution.
 
 ---
 
-## 🧱 System Properties
-
-- Stateful runtime  
-- Bounded autonomy  
-- Uncertainty-aware decisions  
-- Tool-grounded execution  
-- Policy-gated actions  
-- Human-in-the-loop final submit  
-
----
-
 ## 🛠️ Current Status
 
 - 🚧 In build  
 - ⏳ Demo coming soon  
-
----
-
-## 🚀 Why This Project
-
-This project demonstrates:
-- transition from **ML research → applied AI systems**
-- ability to build **decision-making agents**, not just models  
-- understanding of **real-world constraints (cost, risk, execution)**  
-
----
-
-## 📌 Future Work
-
-- tool integration (browser, form fill, retrieval)  
-- outcome-based learning loop improvements  
-- better evaluation signals (confidence calibration)  
-- richer decision policies  
+ 
 
 ---
 
