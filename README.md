@@ -45,7 +45,7 @@ After sufficient confidence is reached, the system commits to a single decision:
 
 ---
 
-<img src="https://raw.githubusercontent.com/ana-stanojevic/bounded-job-application-agent/main/assets/architecture.svg" width="800"/>
+<img src="https://raw.githubusercontent.com/ana-stanojevic/bounded-job-application-agent/main/assets/architecture.png" width="400"/>
 
 ---
 ## 🔄 Learning & Adaptation
